@@ -1,33 +1,79 @@
-.raw{
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    font-size: 150px;}
+h2{
+    font-size: 120px;
+    font-weight: bolder;
+}
+article{
+    font-size: 50px;
+}
+
+.first{
     background-image: url(images/eid.jpg);
+    color: white;
+    padding-top: 500px;
+    padding-left: 500px;
+    padding-bottom: 500px;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.overlay{
-    background-color: black;
 
 }
-.first h1{
-    color: white;
-    font-size: 80px;
-    text-align: left;
-    margin: 0px;
-    padding: 200px 900px 0px 250px;
+.container{
+    width: 50%;
 }
-.first p{
-    font-size: larger;
-    color: white;
-    text-align: left;
-    margin: 0px;
-    padding: 0px 900px 20px 250px;
+.container h1{
+    margin-bottom: 20px;
 }
-.first button{
-    background-color: tomato;
-    color: white;
-    font-size: 30px;
-    text-align: left;
-    margin: 10px 900px 200px 250px;
-    padding: 5px;
-    border-radius: 10px;
-    border-color: tomato;
+.container article{
+    font-size: 50px;
+    margin-bottom: 80px;
 }
+.button1{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 40px;
+    background-color: #EF233C;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.second{
+display: flex;
+padding-top: 300px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+.second img{
+    border-radius: 15px;
+}
+.second article{
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
+
+.half-width{
+    width: 50%;
+}
+
+.third{
+    display: flex;
+    padding-top: 300px;
+        padding-left: 500px;
+        padding-right: 500px;
+    }
+    .third img{
+        border-radius: 15px;
+        height: 850px;
+        margin-right: 100px;
+    }
+    .third article{
+        margin-bottom: 100px;
+    }
+    .small{
+        text-align: center;
+        margin: 250px 700px;
+    }
