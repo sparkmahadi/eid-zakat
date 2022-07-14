@@ -8,6 +8,9 @@ h2{
     font-size: 55px;
     font-weight: bolder;
 }
+h3{
+    font-size: x-large;
+}
 p{
     font-size: 20px;
     color: #707070;
@@ -102,4 +105,62 @@ padding-top: 200px;
     .f12-1,.f12-2,.f21-1,.f21-2{
         padding-right: 20px;
         padding-top: 15px;
+    }
+    .three-images{
+        display: flex;
+        margin: 100px 150px;
+
+    }
+    .three-images div img{
+        width: 506.66px;
+        margin-left: 20px;
+        border-radius: 15px;
+    }
+    .small2{
+        text-align: center;
+        margin: 150px 400px 0px 400px;
+    }
+    .small2 h2{
+        margin: 0px 100px 40px 100px;
+    }
+    .final{
+        display: flex;
+        margin: 100px 150px;
+    }
+   
+    .final div img{
+        margin-bottom: -15px;
+        width: 506.66px;
+        margin-left: 20px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width: 95%;
+    }
+    .writing-part1, .writing-part2, .writing-part3{
+        border: 1px solid gray;
+        margin-left: 21px;
+        margin-top: -5px;
+        margin-right: 6px;
+        padding: 30px;
+    }
+    .final div a{
+        font-size: x-large;
+        color: #EF233C;
+        font-weight: bold;
+    }
+    footer{
+        background-color: black;
+        text-align: center;
+        padding: 10px 0px;
+    }
+    footer h2{
+        font-family: 'Inter', sans-serif;
+        font-family: 'Lobster', cursive;
+        color:#EF233C;
+    }
+    footer p{
+        color: white;
+        font-size: 15px;
+        margin-top: -20px;
+        padding-bottom: 20px;
     }
