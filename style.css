@@ -19,15 +19,17 @@ p{
 .first{
     background-image: url(images/eid.jpg);
     color: white;
-    padding-top: 250px;
-    padding-left: 250px;
-    padding-bottom: 250px;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 .container{
     width: 50%;
+    padding-top: 250px;
+    padding-left: 250px;
+    padding-bottom: 250px;
+    padding-right: 695px;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),transparent);
 }
 .container h1{
     margin-bottom: 20px;
