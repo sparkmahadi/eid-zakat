@@ -3,21 +3,22 @@ body{
 }
 
 h1{
-    font-size: 150px;}
+    font-size: 75px;}
 h2{
-    font-size: 120px;
+    font-size: 55px;
     font-weight: bolder;
 }
-article{
-    font-size: 50px;
+p{
+    font-size: 20px;
+    color: #707070;
 }
 
 .first{
     background-image: url(images/eid.jpg);
     color: white;
-    padding-top: 500px;
-    padding-left: 500px;
-    padding-bottom: 500px;
+    padding-top: 250px;
+    padding-left: 250px;
+    padding-bottom: 250px;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -28,31 +29,36 @@ article{
 .container h1{
     margin-bottom: 20px;
 }
-.container article{
-    font-size: 50px;
-    margin-bottom: 80px;
+.container p{
+    font-size: 25px;
+    color: white;
 }
 .button1{
-    font-size: 50px;
+    font-size: 20px;
     font-weight: bold;
-    padding: 40px;
+    padding: 20px;
     background-color: #EF233C;
     color: white;
     border: none;
     border-radius: 15px;
+    margin-top: 20px;
 }
 .second{
 display: flex;
-padding-top: 300px;
-    padding-left: 500px;
-    padding-right: 500px;
+padding-top: 200px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
+.second-writing{
+    margin-right: 100px;
+}
+
 .second img{
     border-radius: 15px;
+    width: 760px;
 }
-.second article{
-    margin-bottom: 100px;
-    margin-right: 100px;
+.second p{
+    margin-right: 50px;
 }
 
 .half-width{
@@ -61,19 +67,39 @@ padding-top: 300px;
 
 .third{
     display: flex;
-    padding-top: 300px;
-        padding-left: 500px;
-        padding-right: 500px;
+    padding-top: 150px;
+        padding-left: 200px;
+        padding-right: 25px;
     }
+ 
     .third img{
         border-radius: 15px;
-        height: 850px;
+        width: 760px;
+        height: 550px;
         margin-right: 100px;
     }
-    .third article{
-        margin-bottom: 100px;
+    .third p{
+        margin-bottom: 20px;
+        margin-right: 150px;
     }
     .small{
         text-align: center;
-        margin: 250px 700px;
+        margin: 150px 400px 0px 400px;
+    }
+    .small h2{
+        margin: 0px 200px 40px 200px;
+    }
+    .fourth1, .fourth2{
+        display: flex;
+        margin: 0px 400px;
+    }
+    .f-one-one, .f-one-two, .f-two-one, .f-two-two{
+            background-color: rgb(226, 198, 198);
+            display: flex;
+            padding: 30px;
+            margin: 20px 20px;
+    }
+    .f12-1,.f12-2,.f21-1,.f21-2{
+        padding-right: 20px;
+        padding-top: 15px;
     }
