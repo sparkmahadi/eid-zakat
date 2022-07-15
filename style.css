@@ -57,6 +57,10 @@ p {
     margin-top: 20px;
 }
 
+.button1:hover {
+    background-color: #1607f5;
+}
+
 .second {
     display: flex;
     padding-top: 200px;
@@ -107,6 +111,13 @@ p {
 
 .small h2 {
     margin: 0px 200px 40px 200px;
+}
+
+.f-one-one:hover,
+.f-one-two:hover,
+.f-two-one:hover,
+.f-two-two:hover {
+    background-color: rgba(30, 252, 222, 0.712);
 }
 
 .fourth1,
@@ -166,6 +177,12 @@ p {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 95%;
+}
+
+.writing-part1:hover,
+.writing-part2:hover,
+.writing-part3:hover {
+    background-color: rgba(46, 231, 130, 0.411);
 }
 
 .writing-part1,
